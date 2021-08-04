@@ -11,9 +11,11 @@
         <h1>Lampada JS</h1>
     </header>    
     <main>
-        <img src="/img/lampadaBroken.png">
-        <img src="/img/lampadaOff.png">
-        <img src="/img/lampadaOn.png" >
+        <img id="lamp"" ondblclick="lampBroken()" src="/img/lampadaOff.png">
+        <div class="btn-box">
+            <button id="on" onclick="lampOn()">Ligar</button>
+            <button id="off" onclick="lampoff()">Desligar</button>
+        </div>
     </main>
     <footer>
         <p>Direitos reservados &copy João Barabba - 2021</p>
